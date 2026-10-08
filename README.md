@@ -22,7 +22,17 @@ The `/docs` folder contains the planning documents used for Part 2:
 Part 2 keeps the Part 1 `/api/users/me`, `/api/enrolments/me` and `/api/results/me` routes. The guide's `/api/profile/me` route is also available as a compatibility alias to the same own-profile actions.
 
 
+## Technologies Used
 
+- C# / ASP.NET Core Web API
+- .NET 8
+- Entity Framework Core 8.0.10
+- SQL Server / SQL Server LocalDB
+- ASP.NET Core Session
+- Microsoft Identity `PasswordHasher<User>`
+- Swagger / OpenAPI
+- xUnit
+- EF Core InMemory provider for unit tests
 
 ## Project Structure
 
