@@ -102,7 +102,7 @@ The SQL script includes four sample accounts. The sample password is:
 RaceDay123!
 ```
 
-The API still hashes passwords normally when new users register.
+The API still hashes passwords normally when new users register. 
 
 ## Authentication
 
