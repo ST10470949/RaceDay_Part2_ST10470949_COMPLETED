@@ -8,19 +8,7 @@ Organiser — creates, updates and deletes their own Events, manages Categories,
 Participant — creates an account, browses Events and Categories, enrols in a Category, views their own enrolments and views their own Results.
 
 
-## Part 1 Design
 
-The `/docs` folder contains the planning documents used for Part 2:
-
-**Authentication note:** the original Part 1 endpoint plan describes login as returning a JWT, while the official Part 2 guide explicitly requires server-side session management. The implementation follows the Part 2 guide and uses session authentication. The endpoint routes themselves remain aligned with Part 1.
-
-- `RaceDay_ERD.pdf` — updated ERD matching the implemented database model.
-- `RaceDay_API_Endpoint_Plan.pdf` — endpoint plan for the implemented API.
-- `RaceDay_API_Endpoint_Plan.md` — original Part 1 endpoint plan.
-- `RaceDay_Database.sql` — executable SQL Server schema and sample data.
-- `RaceDay_ERD_Original.pdf` — original Part 1 ERD retained for comparison.
-
-Part 2 keeps the Part 1 `/api/users/me`, `/api/enrolments/me` and `/api/results/me` routes. The guide's `/api/profile/me` route is also available as a compatibility alias to the same own-profile actions.
 
 ## Technologies Used
 
