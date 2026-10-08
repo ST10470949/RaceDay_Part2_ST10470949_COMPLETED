@@ -139,7 +139,7 @@ GET /api/profile/me
 PUT /api/profile/me
 ```
 
-The `/api/profile/me` routes are aliases for the Part 1 `/api/users/me` routes.
+The `/api/profile/me` routes are aliases for the Part 1 `/api/users/me` routes. 
 
 ### Events
 
