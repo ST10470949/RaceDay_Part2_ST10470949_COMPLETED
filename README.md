@@ -201,7 +201,32 @@ The API returns the appropriate HTTP status code:
 
 Organiser ownership is checked at API level. An Organiser cannot edit another Organiser's Event, Categories, enrolments or Results.
 
+## Swagger
 
+Run the API in the Development environment and open:
+
+```text
+/swagger
+```
+
+Swagger documents the controllers and XML comments and allows the endpoints to be tested.
+
+Recommended complete test flow:
+
+1. Register an Organiser.
+2. Register a Participant.
+3. Login as Organiser.
+4. Create an Event.
+5. Add Categories.
+6. Login as Participant.
+7. Enrol in a Category.
+8. Login as Organiser.
+9. View Event enrolments.
+10. Capture a Result.
+11. Login as Participant.
+12. View personal Results.
+13. Test a wrong-role request and confirm `403 Forbidden`.
+14. Test an unauthenticated protected request and confirm `401 Unauthorized`.
 
 ## Unit Testing
 
