@@ -60,7 +60,17 @@ RaceDay
 └── RaceDay.sln
 ```
 
+## Database Setup
 
+The API uses the `RaceDayConnection` connection string.
+
+Example LocalDB connection:
+
+```text
+Server=(localdb)\MSSQLLocalDB;Database=RaceDay;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true
+```
+
+You can create the database in either of these ways:
 
 ### Option 1 — SQL script
 
