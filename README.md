@@ -275,20 +275,9 @@ GitHub commit history, CI screenshots and the Part 2 video are intentionally lef
 
 The API is separated from the MVC front end. The MVC application should consume the API endpoints rather than connecting directly to the RaceDay database or duplicating the API's business rules.
 
-## Final Verification Checklist
+## Screenshot of the CI workflows Green Tick
+### IMAGE
+<img width="1911" height="920" alt="Screenshot 2026-10-08 221731" src="https://github.com/user-attachments/assets/85164932-f2b4-4773-ab72-b268c6d16fa2" />
 
-Before submission:
-
-- [ ] Build succeeds.
-- [ ] All unit tests pass.
-- [ ] SQL Server/LocalDB connection works.
-- [ ] Database tables exist.
-- [ ] Swagger loads.
-- [ ] All required endpoints appear in Swagger.
-- [ ] Organiser ownership is enforced.
-- [ ] Participant-only functionality is protected.
-- [ ] Passwords are hashed.
-- [ ] Part 1 planning documents are included.
-- [ ] EF migration is included.
-- [ ] SQL script matches the EF model.
-- [ ] ERD matches the implemented schema.
+## Video Presentation (Unlisted on YouTube)
+### Link
