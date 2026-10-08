@@ -228,37 +228,6 @@ Recommended complete test flow:
 13. Test a wrong-role request and confirm `403 Forbidden`.
 14. Test an unauthenticated protected request and confirm `401 Unauthorized`.
 
-## Unit Testing
-
-The `RaceDay.Tests` project uses xUnit and EF Core InMemory so the tests do not require a real SQL Server database.
-
-The tests cover:
-
-- Registration
-- Password hashing
-- Duplicate registration
-- Successful login/session creation
-- Failed login
-- Logout
-- Profile access/update
-- Event creation and ownership
-- Event update/delete ownership
-- Public event browsing
-- Role enforcement
-- Category management
-- Participant enrolment
-- Duplicate/full enrolment handling
-- Enrolment cancellation
-- Organiser enrolment management
-- Result capture and duplicate-result prevention
-- Participant result privacy
-- Weather ownership
-
-Run:
-
-```powershell
-dotnet test
-```
 
 ## CI/CD
 
