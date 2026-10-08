@@ -1,3 +1,11 @@
+# RaceDay — Part 2 RESTful API
+## Project Description
+RaceDay is a web-based event management system for running, walking and cycling events. Part 2 provides the RESTful ASP.NET Core Web API that the Part 3 MVC application will consume.
+
+## The API supports two roles:
+
+Organiser — creates, updates and deletes their own Events, manages Categories, views enrolments, records Results and manages race-day weather/route information.
+Participant — creates an account, browses Events and Categories, enrols in a Category, views their own enrolments and views their own Results.
 
 
 ## Part 1 Design
